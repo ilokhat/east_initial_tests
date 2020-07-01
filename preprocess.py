@@ -25,11 +25,8 @@ def preprocess_all_images_in(images_dir, result_dir, t='otsu'):
         print(image_name , "->", result_name)
 
 
-IMG_DIR = './res2'
-IMG_RES = f'./prepro2'
-
 IMG_DIR = '../wms_grid_gen/tiles'
-IMG_RES = '../wms_grid_gen/tiles_prepro'
+IMG_RES = './preprocessed'
 
 
 #preprocess_all_images_in(IMG_DIR, IMG_RES, t=THR)
